@@ -284,6 +284,9 @@
   .contact-icons img {
     width: 30px;
   }
+  .contact-icons img:hover{
+    transform: scale(1.1);
+  }
   
   .contact-icons h2 {
     font-size: 20px;
