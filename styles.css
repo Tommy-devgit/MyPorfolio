@@ -164,6 +164,7 @@ nav h1 a {
 }
 .profile-icons img:hover{
   transform: scale(1.1);
+  transition: 0.5s ease;
 }
 
 /* .project-counter{
@@ -195,7 +196,16 @@ nav h1 a {
   margin: 0;
   border-radius: 20px;
 }
-
+.project-link{
+  text-decoration: none;
+  /* color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: brown;
+  transition: all 0.3s ease-in-out; */
+}
 .project-container {
   background-color: #000000e2;
   border-radius: 20px;
@@ -413,13 +423,12 @@ nav h1 a {
 }
 .contact-icons img:hover{
   transform: scale(1.1);
+  transition: 0.5s ease;
 }
 
 .contact-icons h2 {
   font-size: 20px;
-  background-color: #000000;
-  padding: 10px;
-  border-radius: 30px;
+  padding: 0;
 }
 
 .social{
